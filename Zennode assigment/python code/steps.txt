@@ -1,0 +1,16 @@
+ to initialize the object with default or given values.
+
+add_product(product) to add a new product to the catalog.
+apply_discount_rules() to apply any applicable discount rules to the products in the catalog.
+calculate_total_cost(quantities, gift_wrap_request, shipping_request) to calculate the total cost of the order, including product prices, discounts, gift wrap fees, and shipping fees.
+get_products() to retrieve the list of products in the catalog.
+get_discount_rules() to retrieve the list of discount rules in the catalog.
+get_gift_wrap_fee() to retrieve the gift wrap fee.
+get_shipping_fee_per_package() to retrieve the shipping fee per package.
+Create an instance of the Catalogue class with appropriate parameters or use the default constructor.
+Add products to the catalog using the add_product() method.
+Apply any discount rules to the catalog using the apply_discount_rules() method.
+Calculate the total cost of the order using the calculate_total_cost() method, providing the quantities of each product, gift wrap request, and shipping request as arguments.
+Retrieve the list of products, discount rules, gift wrap fee, and shipping fee per package using the respective getter methods.
+Utilize the retrieved information to display the catalog, discounts, and final costs to the user.
+By following these steps, you can effectively use the program and understand its functionality.

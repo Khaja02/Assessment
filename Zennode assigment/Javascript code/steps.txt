@@ -1,0 +1,29 @@
+To calculate the product cost for a product in the catalogue, follow these steps:
+
+Define the product details such as name, price, gift wrap status, quantity, and applicable discounts.
+
+Use the calculateDiscount method to determine the discount that applies to the current product purchase.
+
+Use the calculateShippingFee method to calculate the shipping fee based on the total number of units and the specified fee per package.
+
+Use the calculateProductCost method to calculate the total cost of the product purchase, including the applicable discount and shipping fee.
+
+The calculateProductCost method returns an object containing the complete product cost information, which can be displayed to the user.
+
+For example, if you have a product named "Laptop" with a price of 1200, a quantity of 2, and gift wrap requested, you can calculate the product cost using the following code:
+
+
+var product = "Laptop";
+var quantity = 2;
+var giftWrap = true;
+
+var result = catalogue.calculateProductCost(product, quantity, giftWrap);
+
+console.log(result);
+
+
+
+
+This code will display the complete product cost information, including the total amount, subtotal, discount applied, shipping fee, gift wrap fee, and the final total.
+
+Make sure to have the necessary permissions to run JavaScript code in your browser or platform. Additionally, for privacy and security reasons, avoid entering personal or sensitive information when prompted.
